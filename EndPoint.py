@@ -8,14 +8,6 @@ api = Api(app,
 		  title = "Name Recorder",
 		  description = "Manage names of various users of the application")
 
-import pytest
-
-test_json={}
-
-# @api.route('/hello/')
-# class HelloWorld(Resource):
-#     def get(self):
-#         return "Hello World"
 
 Data=[]
 
@@ -94,6 +86,3 @@ if __name__ == '__main__':
 	def home():
 		return "Hey there!"
 
-
-	if __name__ == '__main__':
-		app.run(debug=True)
